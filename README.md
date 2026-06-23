@@ -42,7 +42,7 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 You can download the latest ISO image from the Internet Archive link below.
 最新のISOイメージは、以下のInternet Archiveリンクからダウンロード（直リンク/Torrent）できます。
 
-👉 **[Download Kawaiintu ISO (Internet Archive) - Link Coming Soon!]**
+👉 **[[Download Kawaiintu ISO (Internet Archive)](https://archive.org/details/kawaiintu-uefi)]**
 
 *(Note: We recommend using Torrent for faster and more stable downloads.)*
 *(※大容量ファイルのため、高速で安定したTorrent経由でのダウンロードを強く推奨します。)*
