@@ -1,7 +1,7 @@
 # 🌸 Kawaiintu OS (Neo Moebuntu)
 
 
-![Kawaiintu Banner](A_highly_stylized_and_detailed_202606231914.jpeg)
+![Kawaiintu Banner](In_the_tech_spec_panel,_202606232116.jpeg)
 
 **Kawaiintu UEFI MODE Distribution**
 
