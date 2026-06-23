@@ -1,5 +1,8 @@
 # 🌸 Kawaiintu OS (Neo Moebuntu)
 
+
+![Kawaiintu Banner](A_highly_stylized_and_detailed_202606231914.jpeg)
+
 **Kawaiintu UEFI MODE Distribution**
 
 **「ロリ甘から、エモーショナルへ。」**
