@@ -34,7 +34,7 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 - ⚡ **Modern Architecture:** 
   Optimized exclusively for UEFI boot mode.
   (UEFIモード専用に最適化されたモダンな環境。)
-
+* Out-of-the-box multilingual support
 ---
 
 ## 📥 Download / ダウンロード
