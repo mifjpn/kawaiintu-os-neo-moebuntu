@@ -22,9 +22,9 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
   Each of the 9 color themes corresponds to a specific animal, adding a playful yet stylish touch to your desktop experience.
   (それぞれのテーマカラーには動物のモチーフが対応しており、遊び心とスタイリッシュさを両立。)
 
-- 🌍 **Out-of-the-Box Multilingual Support:**
-  Fully multilingual. Thanks to the integrated Calamares installer, you can easily set your native language, locale, and keyboard layout right from the setup screen.
-  (Calamaresインストーラーを採用し、インストール時から多言語にフル対応。日本語はもちろん、世界中の言語環境ですぐに利用可能です。)
+- 🌍 **Borderless Experience (True Multilingual Support):**
+  Zero friction for global users. Powered by the highly acclaimed Calamares installer, Kawaiintu delivers a flawless, out-of-the-box multilingual experience. Set your native language, timezone, and precise keyboard layout effortlessly right from the initial setup screen.
+  (国境を越えるOS体験を。世界中で高く評価されているCalamaresインストーラーの採用により、煩わしいロケール設定の壁を排除しました。インストール画面から母国語やキーボードレイアウトを選ぶだけで、あなたの言語環境に完全に最適化された状態で使い始められます。)
 
 - 🕶️ **Cool Login Screen:**
   A sleek and highly polished login screen that sets an "emo and cool" mood right from the moment you boot up.
