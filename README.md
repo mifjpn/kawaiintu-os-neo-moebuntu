@@ -1,6 +1,5 @@
 # 🌸 Kawaiintu OS (Neo Moebuntu)
 
-
 ![Kawaiintu Banner](In_the_tech_spec_panel,_202606232116.jpeg)
 
 **Kawaiintu UEFI MODE Distribution**
@@ -15,26 +14,30 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 
 ## ✨ Features / 主な特徴
 
-- 🎨 **9 Vibrant Themes (Hue Rotation):** 
-  Utilizing a unique Python-based hue rotation system, we quickly crafted 9 distinct and beautiful color themes. 
-  (Pythonを用いた独自の「色相回転ギミック」を活用し、9色展開の美しく多彩なテーマを構築。)
+- 🎨 **Non-Destructive UI Theming (GTK4 Bypass):**
+  We bypassed the strict GTK4/libadwaita theming limits safely. Our custom Python daemon dynamically hooks into UI selectors to rotate colors on the fly, crafting 9 distinct themes without breaking system CSS files.
+  (独自のPythonデーモンにより、GTK4/libadwaitaの厳格なテーマ制限を非破壊で回避。システムファイルを壊すことなく、9色の美しい色相回転ギミックを実現しました。)
 
-- 🐾 **Animal Motifs:** 
+- 🐾 **Animal Motifs:**
   Each of the 9 color themes corresponds to a specific animal, adding a playful yet stylish touch to your desktop experience.
   (それぞれのテーマカラーには動物のモチーフが対応しており、遊び心とスタイリッシュさを両立。)
 
-- 🕶️ **Cool Login Screen:** 
+- 🌍 **Out-of-the-Box Multilingual Support:**
+  Fully multilingual. Thanks to the integrated Calamares installer, you can easily set your native language, locale, and keyboard layout right from the setup screen.
+  (Calamaresインストーラーを採用し、インストール時から多言語にフル対応。日本語はもちろん、世界中の言語環境ですぐに利用可能です。)
+
+- 🕶️ **Cool Login Screen:**
   A sleek and highly polished login screen that sets an "emo and cool" mood right from the moment you boot up.
   (起動した瞬間から「エモくてかっこいい」世界観を演出する、クールなログイン画面。)
 
-- 🛠️ **Ultimate Freedom (True to Moebuntu's Spirit):** 
+- 🛠️ **Ultimate Freedom (True to Moebuntu's Spirit):**
   While it looks perfectly configured out of the box, you still have complete freedom to change the Plymouth (boot animation), Login screen, and Wallpapers to whatever you desire.
   (初期状態で完成されたデザインでありながら、Moebuntuと同様にPlymouth、ログイン画面、背景画像はユーザーの好みに合わせて自由に変更可能。着せ替えの自由度はそのままです。)
 
-- ⚡ **Modern Architecture:** 
+- ⚡ **Modern Architecture:**
   Optimized exclusively for UEFI boot mode.
   (UEFIモード専用に最適化されたモダンな環境。)
-* Out-of-the-box multilingual support
+
 ---
 
 ## 📥 Download / ダウンロード
