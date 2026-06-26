@@ -30,6 +30,9 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
   <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_swallow.png" width="32%" alt="Theme Swallow">
   <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_wolf.png" width="32%" alt="Theme Wolf">
 </p>
+
+https://github.com/user-attachments/assets/2bd0c413-5c5c-47f6-81e1-e5a4d368f06d
+
 - 🎨 **Non-Destructive UI Theming (GTK4 Bypass):**
   We bypassed the strict GTK4/libadwaita theming limits safely. Our custom Python daemon dynamically hooks into UI selectors to rotate colors on the fly, crafting 9 distinct themes without breaking system CSS files.
   (独自のPythonデーモンにより、GTK4/libadwaitaの厳格なテーマ制限を非破壊で回避。システムファイルを壊すことなく、9色の美しい色相回転ギミックを実現しました。)
