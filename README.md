@@ -14,23 +14,22 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 
 ## ✨ Features / 主な特徴
 
-<!-- 9色のテーマバナー（3x3のグリッド表示） -->
+<!-- 9色のテーマバナー（3x3のグリッド表示：絶対パス版） -->
 <p align="center">
-  <img src="banner/kawaiintu_butterfly.png" width="32%" alt="Theme Butterfly">
-  <img src="banner/kawaiintu_cat.png" width="32%" alt="Theme Cat">
-  <img src="banner/kawaiintu_deer.png" width="32%" alt="Theme Deer">
+  <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_butterfly.png" width="32%" alt="Theme Butterfly">
+  <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_cat.png" width="32%" alt="Theme Cat">
+  <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_deer.png" width="32%" alt="Theme Deer">
 </p>
 <p align="center">
-  <img src="banner/kawaiintu_dolphin.png" width="32%" alt="Theme Dolphin">
-  <img src="banner/kawaiintu_fox.png" width="32%" alt="Theme Fox">
-  <img src="banner/kawaiintu_frog.png" width="32%" alt="Theme Frog">
+  <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_dolphin.png" width="32%" alt="Theme Dolphin">
+  <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_fox.png" width="32%" alt="Theme Fox">
+  <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_frog.png" width="32%" alt="Theme Frog">
 </p>
 <p align="center">
-  <img src="banner/kawaiintu_leaf.png" width="32%" alt="Theme Leaf">
-  <img src="banner/kawaiintu_swallow.png" width="32%" alt="Theme Swallow">
-  <img src="banner/kawaiintu_wolf.png" width="32%" alt="Theme Wolf">
+  <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_leaf.png" width="32%" alt="Theme Leaf">
+  <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_swallow.png" width="32%" alt="Theme Swallow">
+  <img src="https://raw.githubusercontent.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/main/banner/kawaiintu_wolf.png" width="32%" alt="Theme Wolf">
 </p>
-
 - 🎨 **Non-Destructive UI Theming (GTK4 Bypass):**
   We bypassed the strict GTK4/libadwaita theming limits safely. Our custom Python daemon dynamically hooks into UI selectors to rotate colors on the fly, crafting 9 distinct themes without breaking system CSS files.
   (独自のPythonデーモンにより、GTK4/libadwaitaの厳格なテーマ制限を非破壊で回避。システムファイルを壊すことなく、9色の美しい色相回転ギミックを実現しました。)
