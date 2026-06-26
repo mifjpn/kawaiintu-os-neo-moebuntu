@@ -14,6 +14,23 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 
 ## ✨ Features / 主な特徴
 
+<!-- 9色のテーマバナー（3x3のグリッド表示） -->
+<p align="center">
+  <img src="banner/kawaiintu_butterfly.png" width="32%" alt="Theme Butterfly">
+  <img src="banner/kawaiintu_cat.png" width="32%" alt="Theme Cat">
+  <img src="banner/kawaiintu_deer.png" width="32%" alt="Theme Deer">
+</p>
+<p align="center">
+  <img src="banner/kawaiintu_dolphin.png" width="32%" alt="Theme Dolphin">
+  <img src="banner/kawaiintu_fox.png" width="32%" alt="Theme Fox">
+  <img src="banner/kawaiintu_frog.png" width="32%" alt="Theme Frog">
+</p>
+<p align="center">
+  <img src="banner/kawaiintu_leaf.png" width="32%" alt="Theme Leaf">
+  <img src="banner/kawaiintu_swallow.png" width="32%" alt="Theme Swallow">
+  <img src="banner/kawaiintu_wolf.png" width="32%" alt="Theme Wolf">
+</p>
+
 - 🎨 **Non-Destructive UI Theming (GTK4 Bypass):**
   We bypassed the strict GTK4/libadwaita theming limits safely. Our custom Python daemon dynamically hooks into UI selectors to rotate colors on the fly, crafting 9 distinct themes without breaking system CSS files.
   (独自のPythonデーモンにより、GTK4/libadwaitaの厳格なテーマ制限を非破壊で回避。システムファイルを壊すことなく、9色の美しい色相回転ギミックを実現しました。)
@@ -73,4 +90,4 @@ You can download the latest ISO image from the Internet Archive link below.
 
 **ベースシステム：各オープンソースライセンスに準拠**
 ベースとなるUbuntuシステム、および同梱されている各種ソフトウェア（GNOME環境や各パッケージなど）の著作権は放棄されていません。これらはそれぞれの開発元が定める元のライセンス（GPLなど）に準拠します。
-*(The underlying Ubuntu system and included software packages retain their original licenses, such as GPL.)*
+*(The underlying Ubuntu system and included software packages retain their original licenses, such as GPL.)*e packages retain their original licenses, such as GPL.)*
