@@ -12,6 +12,14 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 
 ---
 
+## 🔥 Try it Risk-Free in Live Mode! / Liveモードでノーリスクで試そう！
+
+**You don't need to install anything to experience this.** The ISO comes with a fully functional Live Environment. Just flash it to a USB drive, boot it up, and you can test the dynamic GTK4 hue-rotation, Python hooks, and custom system sounds directly on your hardware **without touching your current OS!** If you love it, you can install it via Calamares. If not, just unplug the USB!
+
+**(このOSを体験するのに、今のPC環境を壊す必要はありません。)** ISOには完全動作するLive環境が含まれています。USBメモリに焼いて起動するだけで、現在のOSを一切イジることなく、動的なGTK4色相回転やPythonフックなどの全機能をあなたのPC上で直接テストできます！気に入ったらそのままインストールでき、違うなと思ったらUSBを抜くだけです！
+
+---
+
 ## ✨ Features / 主な特徴
 
 <!-- 9色のテーマバナー（3x3のグリッド表示：絶対パス版） -->
@@ -71,16 +79,18 @@ You can download the latest ISO image from the Internet Archive link below.
 
 ---
 
-## 💻 Installation / インストール方法
+## 💻 Live Mode & Installation / お試し＆インストール方法
 
-1. Download the ISO file from the link above.
+1. **Download** the ISO file from the link above.
    (上記のリンクからISOファイルをダウンロードします。)
-2. Write the ISO to a USB drive using tools like [Rufus](https://rufus.ie/) or [balenaEtcher](https://balena.io/etcher/).
+2. **Flash it** to a USB drive using tools like [Rufus](https://rufus.ie/) or [balenaEtcher](https://balena.io/etcher/).
    (RufusやbalenaEtcherなどのツールを使用して、USBメモリに書き込みます。)
-3. Boot your PC from the USB drive in **UEFI mode**.
+3. **Boot** your PC from the USB drive in **UEFI mode**.
    (PCを**UEFIモード**でUSBから起動します。)
-4. Follow the Calamares installer to setup Kawaiintu.
-   (Calamaresインストーラーの指示に従ってインストールを完了してください。)
+4. 🎉 **Enjoy the Live Mode!** Test the dynamic themes and experience the UI directly without making any changes to your PC.
+   (**Liveモードを満喫してください！** PCの環境を一切変更することなく、そのままOSの全機能をテストできます。)
+5. **Install (Optional):** If you decide to keep it, launch the Calamares installer from the desktop to setup Kawaiintu.
+   (気に入った場合は、デスクトップ上のCalamaresインストーラーを起動してインストールを完了してください。)
 
 ---
 
@@ -92,4 +102,4 @@ You can download the latest ISO image from the Internet Archive link below.
 
 **ベースシステム：各オープンソースライセンスに準拠**
 ベースとなるUbuntuシステム、および同梱されている各種ソフトウェア（GNOME環境や各パッケージなど）の著作権は放棄されていません。これらはそれぞれの開発元が定める元のライセンス（GPLなど）に準拠します。
-*(The underlying Ubuntu system and included software packages retain their original licenses, such as GPL.)*e packages retain their original licenses, such as GPL.)*
+*(The underlying Ubuntu system and included software packages retain their original licenses, such as GPL.)*
