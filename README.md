@@ -79,10 +79,8 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 
 💡 **Performance Note:**
 While we recommend 6GB for a comfortable daily experience, the OS is so heavily optimized that it *can* actually run GIMP smoothly on a constrained 2GB RAM setup! Check out the proof on YouTube:
-
-👉 **[Watch the 2GB RAM Tech Demo]([https://www.youtube.com/watch?v=ba0V2cyY04g])**
+👉 **[Watch the 2GB RAM Tech Demo](https://www.youtube.com/watch?v=ba0V2cyY04g)**
 (※快適な日常使いには6GB以上を推奨しますが、極限まで軽量化されているため、なんと2GBの環境でもGIMPが動作します！その証拠となる技術デモ動画はこちらからご覧いただけます。)
-
 
 ---
 
