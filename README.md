@@ -44,7 +44,6 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 </p>
 <video src="https://github.com/user-attachments/assets/2bd0c413-5c5c-47f6-81e1-e5a4d368f06d" width="640" autoplay loop muted playsinline></video>
 
-
 - 🎨 **Non-Destructive UI Theming (GTK4 Bypass):**
   We bypassed the strict GTK4/libadwaita theming limits safely. Our custom Python daemon dynamically hooks into UI selectors to rotate colors on the fly, crafting 9 distinct themes without breaking system CSS files.
   (独自のPythonデーモンにより、GTK4/libadwaitaの厳格なテーマ制限を非破壊で回避。システムファイルを壊すことなく、9色の美しい色相回転ギミックを実現しました。)
@@ -81,6 +80,20 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 While we recommend 6GB for a comfortable daily experience, the OS is so heavily optimized that it *can* actually run GIMP smoothly on a constrained 2GB RAM setup! Check out the proof on YouTube:
 👉 **[Watch the 2GB RAM Tech Demo](https://www.youtube.com/watch?v=ba0V2cyY04g)**
 (※快適な日常使いには6GB以上を推奨しますが、極限まで軽量化されているため、なんと2GBの環境でもGIMPが動作します！その証拠となる技術デモ動画はこちらからご覧いただけます。)
+
+---
+
+## ❓ FAQ (Frequently Asked Questions / よくある質問)
+
+**Q. Why distribute this as a full OS ISO instead of just a theme script?**
+(なぜ単なるテーマスクリプトではなく、完全なOSのISOとして配布しているのですか？)
+**A.** Traditional GTK theming (like CSS overrides) often breaks the UI after system updates. To solve this, Kawaiintu uses a custom Python daemon that dynamically hooks into GTK4 selectors in-memory. Distributing it as a Live ISO allows users to safely experience this fail-safe architecture in a RAM sandbox without risking their main system's stability.
+(従来のGTKテーマ変更（CSSの上書きなど）は、システムアップデート後にUIが壊れることがよくあります。これを解決するため、KawaiintuはカスタムPythonデーモンを使用し、インメモリでGTK4セレクタに動的にフックします。Live ISOとして配布することで、メインシステムの安定性を危険にさらすことなく、RAM上のサンドボックスでこのフェイルセーフなアーキテクチャを安全に体験できるようになります。)
+
+**Q. Is this safe to use? Are there any modified core files?**
+(これは安全に使用できますか？改変されたコアファイルはありますか？)
+**A.** Yes, underneath the heavy anime aesthetic, it is purely a solid Ubuntu core. No core system files or security packages are modified or replaced. The custom theming is completely non-destructive and gracefully falls back to default libadwaita if disabled.
+(はい、派手なアニメテイストの見た目の裏側は、純粋で堅牢なUbuntuコアです。コアとなるシステムファイルやセキュリティパッケージは一切改変・置換されていません。カスタムテーマは完全に非破壊的であり、無効化された場合はデフォルトのlibadwaitaに安全にフォールバックします。)
 
 ---
 
