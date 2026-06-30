@@ -111,7 +111,7 @@ You can download the latest ISO image from the Internet Archive link below.
 
 ---
 
-## 💻 Live Mode & Installation / お試し＆インストール方法
+## 💻 Live Mode & Installation / お試し＆インストール方法 (ISO)
 
 1. **Download** the ISO file from the link above.
    (上記のリンクからISOファイルをダウンロードします。)
@@ -126,10 +126,28 @@ You can download the latest ISO image from the Internet Archive link below.
 
 ---
 
+## 🛠️ Applying Themes via Scripts (For Existing Users & Developers)
+
+Execute the bundled scripts in your terminal to automatically set up the GTK theme, GDM (Login Screen), and Plymouth (Boot Screen):
+
+**💡 Geek Note:**
+If you are a developer or a "ricer" from r/unixporn looking for the **dynamic GTK4 Python hook**, you can inspect the core logic deployed by these scripts here: 👉 **[Check out the Theme packages here](https://github.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/tree/main/themes)**
+
+- ◯ `./install.sh`
+  Automatically deploys theme files to `/usr/share/themes/` and configures system-level components (GDM/Plymouth), including the essential `update-initramfs` initialization. (Requires sudo)
+
+- ◯ `./bg_change.sh`
+  A helper script to change the GDM login screen background to any image of your choice. Follow the on-screen terminal prompts.
+
+- ◯ `./uninstall.sh`
+  Safely restores your GDM, Plymouth, and system themes back to the default Ubuntu configuration.
+
+---
+
 ## 📜 License / ライセンス
 
 **独自開発部分：パブリックドメイン (Public Domain / CC0)**
-このプロジェクトにおいて独自に作成・設定された部分（Pythonスクৃত、GTK設定、独自テーマなど）は、パブリックドメインとして公開されています。作者への許可やクレジット表記なしで、複製、改変、配布、商用利用が自由に可能です。
+このプロジェクトにおいて独自に作成・設定された部分（Pythonスクリプト、GTK設定、独自テーマなど）は、パブリックドメインとして公開されています。作者への許可やクレジット表記なしで、複製、改変、配布、商用利用が自由に可能です。
 *(The original configurations, Python scripts, and custom themes created for this project are dedicated to the public domain.)*
 
 **ベースシステム：各オープンソースライセンスに準拠**
