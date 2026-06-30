@@ -126,22 +126,26 @@ You can download the latest ISO image from the Internet Archive link below.
 
 ---
 
-## 🛠️ Applying Themes via Scripts (For Existing Users & Developers)
+## 🛠️ Applying Themes via Scripts (For Existing Users & Developers) / スクリプトによるテーマ適用 (既存ユーザー＆開発者向け)
 
 Execute the bundled scripts in your terminal to automatically set up the GTK theme, GDM (Login Screen), and Plymouth (Boot Screen):
+(同梱のスクリプトをターミナルで実行することで、GTKテーマ、GDM（ログイン画面）、Plymouth（起動画面）を自動的にセットアップできます。)
 
 **💡 Geek Note:**
 If you are a developer or a "ricer" from r/unixporn looking for the **dynamic GTK4 Python hook**, you can inspect the core logic deployed by these scripts here: 👉 **[Check out the Theme packages here](https://github.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/tree/main/themes)**
+(開発者やr/unixpornのギーク層向け：**動的なGTK4 Pythonフック**の仕組みを探している場合は、こちらのテーマパッケージ内に展開されているコアロジックを確認できます：👉 **[テーマパッケージを確認する](https://github.com/mifjpn/Kawaiintu-yet-another-moebuntu-MifjpnsOriginal/tree/main/themes)**)
 
 - ◯ `./install.sh`
   Automatically deploys theme files to `/usr/share/themes/` and configures system-level components (GDM/Plymouth), including the essential `update-initramfs` initialization. (Requires sudo)
+  (テーマファイルを `/usr/share/themes/` に自動配置し、必須となる `update-initramfs` の初期化を含め、システムレベルのコンポーネント（GDM/Plymouth）を設定します。※要sudo)
 
 - ◯ `./bg_change.sh`
   A helper script to change the GDM login screen background to any image of your choice. Follow the on-screen terminal prompts.
+  (GDMログイン画面の背景を好きな画像に変更するためのヘルパースクリプトです。ターミナルの画面指示に従ってください。)
 
 - ◯ `./uninstall.sh`
   Safely restores your GDM, Plymouth, and system themes back to the default Ubuntu configuration.
-
+  (GDM、Plymouth、およびシステムテーマを、安全にデフォルトのUbuntu設定に復元します。)
 ---
 
 ## 📜 License / ライセンス
