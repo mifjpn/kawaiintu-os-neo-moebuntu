@@ -129,7 +129,7 @@ You can download the latest ISO image from the Internet Archive link below.
 ## 📜 License / ライセンス
 
 **独自開発部分：パブリックドメイン (Public Domain / CC0)**
-このプロジェクトにおいて独自に作成・設定された部分（Pythonスクリプト、GTK設定、独自テーマなど）は、パブリックドメインとして公開されています。作者への許可やクレジット表記なしで、複製、改変、配布、商用利用が自由に可能です。
+このプロジェクトにおいて独自に作成・設定された部分（Pythonスクৃত、GTK設定、独自テーマなど）は、パブリックドメインとして公開されています。作者への許可やクレジット表記なしで、複製、改変、配布、商用利用が自由に可能です。
 *(The original configurations, Python scripts, and custom themes created for this project are dedicated to the public domain.)*
 
 **ベースシステム：各オープンソースライセンスに準拠**
