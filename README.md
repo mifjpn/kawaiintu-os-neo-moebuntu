@@ -13,6 +13,8 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 **🏆 Community Reception:**
 - 🔥 **Trending on r/unixporn:** Over 1.6K+ views!
 - 💬 *"More solid than Windows 11 Pro."* — a Reddit user
+- 🗳️ **Support Us on DistroWatch!:** We are currently on the waiting list. If you like Kawaiintu, please **[Recommend us here!](https://distrowatch.com/new)**
+  (DistroWatchにて審査待ちです。Kawaiintuを気に入っていただけたら、[こちらのページ下部](https://distrowatch.com/new)から「Recommend」への投票をお願いします！)
 
 ---
 
