@@ -122,6 +122,20 @@ While we recommend 6GB for a comfortable daily experience, the OS is so heavily 
 
 ---
 
+## 🎥 For Tech Reviewers & Content Creators / レビュアー＆クリエイターの方へ
+
+Are you planning to review Kawaiintu OS or test the "AI fake" rumors? We welcome your deep dives!
+(Kawaiintu OSのレビューや、「AIフェイク」の噂の検証をご検討中ですか？大歓迎です！)
+
+- **Zero Risk Testing (ゼロリスク検証):**
+  You don't need to risk your main rig. The dynamic GTK4 Python hooks and custom daemons work flawlessly on **Live USB** or **Virtual Machines** (Virt-Manager, GNOME Boxes, VMware).
+  (メインPCを危険にさらす必要はありません。Live USBや仮想マシン上でも、動的なGTK4 Pythonフックやカスタムデーモンは完全に動作します。)
+- **Fully Verifiable (完全な検証可能性):**
+  This is a real, functional OS, not a UI mock-up. You can inspect the actual Python code driving the UI bypass in the `/themes` directory.
+  (これは実働するOSであり、UIのモックアップではありません。UI制限をバイパスして動作する実際のPythonコードは、`/themes` ディレクトリから直接確認できます。)
+
+---
+
 ## 📥 Download / ダウンロード
 
 You can download the latest ISO image from the Internet Archive link below.
@@ -157,4 +171,4 @@ You can download the latest ISO image from the Internet Archive link below.
 
 **ベースシステム：各オープンソースライセンスに準拠**
 ベースとなるUbuntuシステム、および同梱されている各種ソフトウェア（GNOME環境や各パッケージなど）の著作権は放棄されていません。これらはそれぞれの開発元が定める元のライセンス（GPLなど）に準拠します。
-*(The underlying Ubuntu system and included software packages retain their original licenses, such as GPL.)*
+*(The underlying Ubuntu system and included software packages retain their original licenses, such as GPL.)*retain their original licenses, such as GPL.)*
