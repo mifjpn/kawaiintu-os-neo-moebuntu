@@ -171,4 +171,4 @@ You can download the latest ISO image from the Internet Archive link below.
 
 **ベースシステム：各オープンソースライセンスに準拠**
 ベースとなるUbuntuシステム、および同梱されている各種ソフトウェア（GNOME環境や各パッケージなど）の著作権は放棄されていません。これらはそれぞれの開発元が定める元のライセンス（GPLなど）に準拠します。
-*(The underlying Ubuntu system and included software packages retain their original licenses, such as GPL.)*retain their original licenses, such as GPL.)*
+*(The underlying Ubuntu system and included software packages retain their original licenses, such as GPL.)*
