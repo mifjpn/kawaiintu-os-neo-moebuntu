@@ -18,6 +18,25 @@ Moebuntuの系譜を継承しつつ、独自のPython色相回転ギミックに
 
 ---
 
+## ⚠️ Important Notice / 重要なお知らせ
+
+**Regarding Kawaiintu OS (Neo Moebuntu)**
+
+The concept and philosophical origins of this project respect the original Moebuntu by Mr. Toy. 
+However, for any technical inquiries that Mr. Toy cannot answer—including the GTK4 Python dynamic color hooks, standalone theme architecture, and 2GB RAM footprint optimizations—I, the technical lead, will answer them.
+
+Contact: mifjpn@gmail.com
+
+---
+**Kawaiintu OS (Neo Moebuntu) について**
+
+本プロジェクトの思想的源流は、Toy氏のMoebuntuに最大限の敬意を払っています。
+ただし、GTK4とPythonを用いた動的色相フック、スタンドアロンのTheme構造、および2GBメモリ環境でのシステム挙動など、Toy氏では回答不可能な「技術的仕様」に関するお問い合わせは、技術開発を担当した私宛にご連絡ください。
+
+Contact: mifjpn@gmail.com
+
+---
+
 ## 🔥 Try it Risk-Free in Live Mode! / Liveモードでノーリスクで試そう！
 
 **You don't need to install anything to experience this.** The ISO comes with a fully functional Live Environment. Just flash it to a USB drive, boot it up, and you can test the dynamic GTK4 hue-rotation, Python hooks, and custom system sounds directly on your hardware **without touching your current OS!** If you love it, you can install it via Calamares. If not, just unplug the USB!
@@ -181,4 +200,3 @@ You can download the latest ISO image from the Internet Archive link below.
 **ベースシステム：各オープンソースライセンスに準拠**
 ベースとなるUbuntuシステム、および同梱されている各種ソフトウェア（GNOME環境や各パッケージなど）の著作権は放棄されていません。これらはそれぞれの開発元が定める元のライセンス（GPLなど）に準拠します。
 *(The underlying Ubuntu system and included software packages retain their original licenses, such as GPL.)*
-
